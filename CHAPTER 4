@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 4 – Statistical Inference</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f2f4f7;
+            margin: 30px;
+            line-height: 1.7;
+        }
 
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0f172a;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .highlight {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-left: 4px solid #2563eb;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<section>
+    <h2>1. Introduction</h2>
+    <p>
+        Statistical inference is the process of drawing conclusions about a population
+        based on information obtained from a sample. It forms the basis of decision
+        making under uncertainty.
+    </p>
+</section>
+
+<section>
+    <h2>2. Basic Terminologies of Hypothesis Testing</h2>
+    <ul>
+        <li><b>Population:</b> Entire set of individuals or observations.</li>
+        <li><b>Sample:</b> Subset selected from the population.</li>
+        <li><b>Null Hypothesis (H₀):</b> Statement of no effect or no difference.</li>
+        <li><b>Alternative Hypothesis (H₁):</b> Statement contradicting H₀.</li>
+        <li><b>Level of Significance (α):</b> Probability of rejecting H₀ when it is true.</li>
+        <li><b>Test Statistic:</b> Value calculated from sample data.</li>
+        <li><b>P-value:</b> Probability of observing the test result under H₀.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Confidence Interval</h2>
+    <p>
+        A confidence interval provides a range of values within which the population
+        parameter is expected to lie with a certain level of confidence.
+    </p>
+
+    <div class="highlight">
+        <b>Formula (Mean):</b><br>
+        Confidence Interval = x̄ ± Z<sub>α/2</sub> (σ / √n)
+    </div>
+</section>
+
+<section>
+    <h2>4. Sample Size Determination</h2>
+    <p>
+        Sample size determination ensures that the sample is adequate to estimate
+        population parameters accurately.
+    </p>
+
+    <div class="highlight">
+        <b>Formula:</b><br>
+        n = (Z<sub>α/2</sub>² × σ²) / E²
+    </div>
+
+    <p>
+        where E is the allowable error.
+    </p>
+</section>
+
+<section>
+    <h2>5. Hypothesis Test for Proportions</h2>
+    <p>
+        This test is used to check whether a population proportion differs from a
+        specified value.
+    </p>
+
+    <div class="highlight">
+        <b>Test Statistic:</b><br>
+        Z = (p̂ − p) / √[pq / n]
+    </div>
+</section>
+
+<section>
+    <h2>6. Hypothesis Test for Mean (Single Sample)</h2>
+    <p>
+        This test is used to test the mean of a single population.
+    </p>
+
+    <div class="highlight">
+        <b>Z-test Statistic:</b><br>
+        Z = (x̄ − μ) / (σ / √n)
+    </div>
+</section>
+
+<section>
+    <h2>7. Hypothesis Test for Difference of Means</h2>
+    <p>
+        This test compares the means of two populations to check if there is a
+        significant difference.
+    </p>
+
+    <div class="highlight">
+        <b>Test Statistic:</b><br>
+        Z = (x̄₁ − x̄₂) / √[(σ₁² / n₁) + (σ₂² / n₂)]
+    </div>
+</section>
+
+<section>
+    <h2>Conclusion</h2>
+    <p>
+        Statistical inference provides tools for making decisions based on data.
+        Confidence intervals and hypothesis testing are essential techniques for
+        analyzing population parameters using sample data.
+    </p>
+</section>
+
+<footer>
+    <p>©️ 2026 Chapter 4 – Statistical Inference</p>
+</footer>
+
+</body>
+</html>
